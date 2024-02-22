@@ -1,0 +1,140 @@
+/* 
+.container {
+  position: relative;
+}
+
+.black-box {
+  position: relative;
+  z-index: 1;
+  border: 2px solid black;
+  height: 100px;
+  margin: 30px;
+}
+
+.gray-box {
+  position: absolute;
+  z-index: 3;
+  background: lightgray;
+  height: 60px;  
+  width: 70%;
+  left: 50px;
+  top: 50px;
+}
+
+.green-box {
+  position: absolute;
+  z-index: 2; 
+  background: lightgreen;
+  width: 35%;
+  left: 270px;
+  top: -15px;
+  height: 100px;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: "Poppins", sans-serif;
+}
+
+nav{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 10px;
+}
+
+ul{
+  list-style: none;
+  margin-top: 0px;
+}
+
+body{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvkRP-OvJxZa8hFRSRdkX6Y1XCs_UiV9RWjM-Dp9hkEZwl8tnLTCGToKquwnqcGZGj4Cg&usqp=CAU');
+}
+
+p{
+
+}
+.nav-list li{
+  display: inline;
+  margin: 10px; 
+  color: rgb(17, 3, 3);
+}
+
+img[alt="user-image"]{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0px 10px; 
+}
+
+.heading{
+  margin-top: 80px;
+}
+
+.main-logo{
+  text-align: center;
+}
+
+.logo-text{
+  font-size: 120px;
+  font-weight: 800;
+ color: rgb(14, 12, 12);
+}
+
+.search-bar{
+  
+  width: max-content;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 50px;
+  margin: 10px auto;
+  box-shadow: 0 2px 10px -7px #000;
+  
+
+}
+.search-bar input{
+  border: none;
+  outline: none;
+  width: 400px;
+  height: 22px;
+  padding-left: 15px; 
+  
+  
+}
+
+.app-icon{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
+.bookmark .icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.icon span{
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  padding-left: 7px;
+}
+
+.icon-wrapper{
+  width: max-content;  
+  margin: 0px 25px;
+}
+
+.bookmark .text{
+  margin-top: 15px;
+}

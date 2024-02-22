@@ -1,0 +1,90 @@
+HTML Learning Syllabus
+Basic Level- 1 week
+1.      Introduction to HTML
+·        What is HTML?
+·        History and versions of HTML.
+·        Basic structure of an HTML document.
+·        HTML Editors.
+2.      HTML Elements and Tags
+·        Understanding elements and tags.
+·        Common tags (e.g., <p>, <h1> to <h6>, <br>, <hr>).
+3.      Attributes
+·        Understanding attributes.
+·        Common attributes (e.g., id, class, style).
+4.      Formatting Text
+·        Bold, italic, underline.
+·        Superscript and subscript.
+·        Font size and color.
+5.      Creating Lists
+·        Ordered lists (<ol>).
+·        Unordered lists (<ul>).
+·        Description lists (<dl>).
+6.      Adding Links and Images
+·        Creating hyperlinks (<a> tag).
+·        Inserting images (<img> tag).
+·        Relative vs absolute URLs.
+7.      HTML Tables
+·        Basic table structure (<table>, <tr>, <td>).
+·        Table headers (<th>).
+·        Rowspan and colspan attributes.
+8.      Forms
+·        Basic form structure (<form>).
+·        Input types (text, radio, checkbox, etc.).
+·        Labels, buttons, and fieldsets.
+Intermediate Level- Practise based -1 week & parallel practise
+9.      Advanced Text Formatting
+·        Quotations (<blockquote>, <q>).
+·        Code (<code>, <pre>).
+10.  Advanced HTML Tables
+·        Table captions (<caption>).
+·        Column grouping (<col>, <colgroup>).
+11.  Frames (Note: Frames are outdated and rarely used in modern web development)
+·        Understanding frames and iframes.
+·        Usage and drawbacks.
+12.  HTML Semantics
+·        Semantic elements (<header>, <footer>, <article>, <section>).
+·        Importance for accessibility and SEO.
+13.  HTML Forms in Depth
+·        Advanced input types (date, color, range).
+·        Form validation.
+·        Form layout techniques.
+14.  HTML5 Features
+·        New semantic elements.
+·        Audio and video integration. 
+Advanced Level : Intro to JS so 1-2 weeks
+ 
+16.  Responsive Design and Media Queries
+·        Basics of responsive design.
+·        Using media queries for device-specific layouts.
+17.  HTML and JavaScript
+·        Basic DOM manipulation.
+·        Event handling.   
+2:57
+CSS Learning Syllabus
+Basic Level: 3 - 4 days + practise
+Introduction to CSS
+Understanding CSS and its role in web design. 
+Selectors and Properties
+Basic selectors (e.g., class, id).
+ Common properties (e.g., color, font-size).
+Box Model
+Understanding margin, border, padding, and content.
+Layout Techniques
+Introduction to layout models (e.g., block, inline).
+ Basic positioning (relative, absolute).
+Intermediate Level : 4 days  practice
+Advanced Selectors
+Combinators and pseudo-class selectors.
+Responsive Design
+Media queries.
+Flexbox
+Principles of Flexbox layout.
+ Practical examples.
+
+4. Grid Layout
+Understanding CSS Grid.
+ Building complex layouts.
+Advanced Level: 2 days + practise
+Animations and Transitions
+Basic animations and keyframes.
+ Transition effects.

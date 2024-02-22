@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: "Poppins", sans-serif;
+}
+
+nav{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 10px;
+}
+
+ul{
+    list-style: none;
+    margin-top: 0px;
+}
+
+body{
+    background-image: url(./backgroungk.jpg);
+}
+
+.nav-list li{
+    display: inline;
+    margin: 10px; 
+    color: white;
+}
+
+img[alt="user-image"]{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0px 10px; 
+}
+
+.wrapper{
+    /* border: 1px solid red; */
+    margin-top: 80px;
+}
+
+.main-logo{
+    text-align: center;
+}
+
+.logo-text{
+    font-size: 120px;
+    font-weight: 800;
+   color: white;
+}
+
+.search-bar{
+    /* border: 1px solid red; */
+    width: max-content;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 50px;
+    margin: 10px auto;
+
+}
+
+.fa-search{
+    cursor: pointer;
+}
+
+.search-bar input{
+    border: none;
+    outline: none;
+    width: 400px;
+    height: 22px;
+    padding-left: 15px; 
+    
+}
+
+.bookmark{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.bookmark .icon{
+    /* border: 1px solid red; */
+    /* text-align: center; */
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(205, 164, 244);
+    margin: 0px auto;
+}
+
+.icon span{
+    /* border: 1px solid red; */
+    width: 23px;
+    height: 23px;
+    border-radius: 20px;
+    padding-left: 7px;
+    background-color: white;
+}
+
+.icon-wrapper{
+    /* border: 1px solid red; */
+    width: max-content;  
+    margin: 0px 25px;
+}
+
+.bookmark .text{
+    margin-top: 15px;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .parent {
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-auto-rows: 150px;
+    /* grid-template-rows: 150px 150px; */
+    /* grid-column-gap: 20px;
+    grid-row-gap: 20px; */
+    /* grid-gap: 20px; */
+    grid-template-areas:
+    "header header header header"
+    "sidebar content-1 content-2 content-3"
+    "sidebar content-4 content-5 content-6"
+    "sidebar content-7 content-8 content-9"
+    "footer footer footer footer"
+    ;
+    grid-gap: 10px;
+  }
+  
+  .box {
+    border: 1px solid grey;
+    /* width: 150px;
+    height: 150px; */
+  }
+  
+  .box-1 {
+    background-color: aqua;
+    grid-area: header;
+  }
+  
+  .box-2 {
+    background-color: rgb(81, 227, 71);
+    grid-area: sidebar;
+  }
+  
+  .box-3 {
+    background-color: rgb(104, 75, 230);
+    grid-area: content-1;
+  }
+  
+  .box-4 {
+      background-color: rgb(192, 81, 26);
+      grid-area: content-2;
+    }
+  
+    .box-5 {
+      background-color: rgb(224, 235, 102);
+      grid-area: content-3;
+    }
+  
+    .box-6 {
+      background-color: rgb(231, 98, 180);
+      grid-area: content-4;
+    }
+  
+    .box-12{
+      background-color: rgb(231, 98, 180);
+      grid-area: footer;
+    }
+  
